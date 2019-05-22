@@ -1,6 +1,6 @@
 csv split 一行
 
-一行 split string[] 完成初始格式
+一行 split string[] 完成初始格式11
 	    JavaPairRDD<String, String, Float> ratingExtraction = ratingData.mapToPair(s -> 
 	    	{  
 					String[] values = s.trim().split(",(?=([^\"]*\"[^\"]*\")*[^\"]*$)",-1); 
